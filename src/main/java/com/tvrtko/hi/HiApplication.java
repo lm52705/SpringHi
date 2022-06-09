@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.tvrtko.hi.controllers.HiController;
 
 @SpringBootApplication
-@ComponentScan(basePackageClasses=HiController.class)
+@ComponentScan({"com.tvrtko.hi.controllers"})
 public class HiApplication {
 
 	public static void main(String[] args) {
